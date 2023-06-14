@@ -1,18 +1,24 @@
-import Counter from "@/components/Counter"
+'use client'
+import NavBar from "@/components/Navbar"
+import Notes from "@/components/Notes"
 
 
 export default function Home() {
-  
-  return (
-    <div>
-      <h1>Give feedback</h1>
+  // const [count, setCount] = useState(0)
+  // const handleClick = () => setCount(count + 1)
 
-      <Counter/>
-      <h2>Statistics</h2>
-      <h3>good</h3>
-      <h3>neutral</h3>
-      
+  return (
+
+    <div>
+    <NavBar/>
+    <Notes/>
     </div>
+    // <div>
+
+    //   {/* <Feedback/> */}
+    //    <Counter count={count} handleClick={handleClick}/>
+    //    <Counter count={count} handleClick={handleClick}/>
+    // </div>
 
   )
 }

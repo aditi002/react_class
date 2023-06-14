@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "desc": "today is chilliretet43t",
+      "important": true
+    },
+    {
+      "id": 2,
+      "desc": "css is required for web application",
+      "important": false
+    },
+    {
+      "id": 3,
+      "desc": "JS with react is must",
+      "important": true
+    },
+    {
+      "id": 4,
+      "desc": "hi",
+      "important": false
+    },
+    {
+      "id": 5,
+      "desc": "huh",
+      "important": true
+    }
+  ]
+}
